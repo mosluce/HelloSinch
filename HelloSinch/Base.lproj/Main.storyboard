@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="K9V-RK-Ck4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LOGIN-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloSinch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSD-Vy-wdL">
+                                <state key="normal" title="すばる"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KIv-DL-Pd7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAH-CG-awH">
+                                <state key="normal" title="レム"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cDb-Jv-Vg6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pf-FP-kbX">
+                                <state key="normal" title="ラム"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IlV-jN-NC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6C-kc-f87">
+                                <state key="normal" title="エミリア"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHr-OI-CGn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTq-iU-crP">
+                                <state key="normal" title="Crash"/>
+                                <connections>
+                                    <action selector="crashButtonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8W3-0G-sB6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7pf-FP-kbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K6B-tp-VpD"/>
+                            <constraint firstItem="fSD-Vy-wdL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="QWz-jW-Aq2"/>
+                            <constraint firstItem="DAH-CG-awH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z4s-MN-8Jl"/>
+                            <constraint firstItem="DTq-iU-crP" firstAttribute="top" secondItem="n6C-kc-f87" secondAttribute="bottom" constant="30" id="d1s-uL-DMf"/>
+                            <constraint firstItem="n6C-kc-f87" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ekk-b9-uye"/>
+                            <constraint firstItem="7pf-FP-kbX" firstAttribute="top" secondItem="DAH-CG-awH" secondAttribute="bottom" constant="30" id="fKw-ft-fhl"/>
+                            <constraint firstItem="n6C-kc-f87" firstAttribute="top" secondItem="7pf-FP-kbX" secondAttribute="bottom" constant="30" id="h0o-pL-7Xv"/>
+                            <constraint firstItem="DAH-CG-awH" firstAttribute="top" secondItem="fSD-Vy-wdL" secondAttribute="bottom" constant="30" id="v8A-5W-mua"/>
+                            <constraint firstItem="fSD-Vy-wdL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vpb-xD-MsA"/>
+                            <constraint firstItem="DTq-iU-crP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wmX-7e-8iD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="LOGIN" id="DFV-FO-FQE"/>
+                    <connections>
+                        <segue destination="df5-6q-Cvw" kind="show" identifier="Login" id="wym-JV-3hg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="793"/>
+        </scene>
+        <!--Call Table View Controller-->
+        <scene sceneID="dfU-JG-z89">
+            <objects>
+                <tableViewController id="df5-6q-Cvw" customClass="CallTableViewController" customModule="HelloSinch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ttA-hB-slF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCell" id="3jX-5J-kc4">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3jX-5J-kc4" id="0ng-dV-fL2">
+                                    <frame key="frameInset" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="df5-6q-Cvw" id="JTH-9r-gN7"/>
+                            <outlet property="delegate" destination="df5-6q-Cvw" id="b1n-fu-ki1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Sfc-sH-ody"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GDZ-E7-pbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637" y="790"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QRn-rM-YsO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K9V-RK-Ck4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vQj-2O-3ci">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="76u-D5-deF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOw-cr-2Xj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="792.95352323838085"/>
+        </scene>
+    </scenes>
+</document>

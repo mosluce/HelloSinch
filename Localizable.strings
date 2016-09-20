@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  HelloSinch
+
+  Created by 默司 on 2016/9/20.
+  Copyright © 2016年 默司. All rights reserved.
+*/
+
+SIN_INCOMING_CALL = "Incoming call";
+SIN_INCOMING_CALL_DISPLAY_NAME = "Incoming call from %@";
+SIN_INCOMING_IM = "Incoming message";
+SIN_INCOMING_IM_DISPLAY_NAME = "Incoming message from %@";

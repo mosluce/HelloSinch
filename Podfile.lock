@@ -1,0 +1,19 @@
+PODS:
+  - Crashlytics (3.8.1):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.8)
+  - SinchRTC (3.9.6)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - SinchRTC
+
+SPEC CHECKSUMS:
+  Crashlytics: 4391d8df0b125345e9f209c5db6e7f40a6a8435d
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  SinchRTC: b8a2f2cef9d2dcf28c7d650a0954d79fe6076278
+
+PODFILE CHECKSUM: 0e17450a590866feab5dee1ce357c93129d136b4
+
+COCOAPODS: 1.1.0.rc.2

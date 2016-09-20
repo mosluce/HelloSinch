@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44542D101D9137EB00F64140 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44542D0F1D9137EB00F64140 /* Localizable.strings */; };
+		44542D121D91385300F64140 /* SINClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44542D111D91385300F64140 /* SINClientManager.swift */; };
+		44542D151D91404600F64140 /* CallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44542D141D91404600F64140 /* CallTableViewController.swift */; };
+		44852D291D912A2F00C7A018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44852D281D912A2F00C7A018 /* AppDelegate.swift */; };
+		44852D2B1D912A2F00C7A018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44852D2A1D912A2F00C7A018 /* ViewController.swift */; };
+		44852D2E1D912A2F00C7A018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44852D2C1D912A2F00C7A018 /* Main.storyboard */; };
+		44852D301D912A2F00C7A018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44852D2F1D912A2F00C7A018 /* Assets.xcassets */; };
+		44852D331D912A2F00C7A018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44852D311D912A2F00C7A018 /* LaunchScreen.storyboard */; };
+		A1CC38505A8A45EE64D102D5 /* Pods_HelloSinch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DA5E339E1EFF4280A7B914 /* Pods_HelloSinch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44542D0F1D9137EB00F64140 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		44542D111D91385300F64140 /* SINClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SINClientManager.swift; sourceTree = "<group>"; };
+		44542D141D91404600F64140 /* CallTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallTableViewController.swift; sourceTree = "<group>"; };
+		44852D251D912A2F00C7A018 /* HelloSinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44852D281D912A2F00C7A018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44852D2A1D912A2F00C7A018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44852D2D1D912A2F00C7A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44852D2F1D912A2F00C7A018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44852D321D912A2F00C7A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44852D341D912A2F00C7A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A386271D91707000B5B001 /* HelloSinch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSinch-Bridging-Header.h"; sourceTree = "<group>"; };
+		48F929234DF548D2D126CE9B /* Pods-HelloSinch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSinch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSinch/Pods-HelloSinch.release.xcconfig"; sourceTree = "<group>"; };
+		A42E11D77DC35600AAD9AABF /* Pods-HelloSinch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSinch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSinch/Pods-HelloSinch.debug.xcconfig"; sourceTree = "<group>"; };
+		D6DA5E339E1EFF4280A7B914 /* Pods_HelloSinch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloSinch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44852D221D912A2E00C7A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CC38505A8A45EE64D102D5 /* Pods_HelloSinch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2E3FF38506E2838BBC88CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6DA5E339E1EFF4280A7B914 /* Pods_HelloSinch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44542D0E1D9137D800F64140 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44542D0F1D9137EB00F64140 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44852D1C1D912A2E00C7A018 = {
+			isa = PBXGroup;
+			children = (
+				44542D0E1D9137D800F64140 /* Resources */,
+				44852D271D912A2F00C7A018 /* HelloSinch */,
+				44852D261D912A2F00C7A018 /* Products */,
+				517CEBB6F26923ACF47F478C /* Pods */,
+				2D2E3FF38506E2838BBC88CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44852D261D912A2F00C7A018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44852D251D912A2F00C7A018 /* HelloSinch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44852D271D912A2F00C7A018 /* HelloSinch */ = {
+			isa = PBXGroup;
+			children = (
+				44542D111D91385300F64140 /* SINClientManager.swift */,
+				44852D281D912A2F00C7A018 /* AppDelegate.swift */,
+				44852D2A1D912A2F00C7A018 /* ViewController.swift */,
+				44542D141D91404600F64140 /* CallTableViewController.swift */,
+				44852D2F1D912A2F00C7A018 /* Assets.xcassets */,
+				44852D2C1D912A2F00C7A018 /* Main.storyboard */,
+				44852D311D912A2F00C7A018 /* LaunchScreen.storyboard */,
+				44852D341D912A2F00C7A018 /* Info.plist */,
+				44A386271D91707000B5B001 /* HelloSinch-Bridging-Header.h */,
+			);
+			path = HelloSinch;
+			sourceTree = "<group>";
+		};
+		517CEBB6F26923ACF47F478C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42E11D77DC35600AAD9AABF /* Pods-HelloSinch.debug.xcconfig */,
+				48F929234DF548D2D126CE9B /* Pods-HelloSinch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44852D241D912A2E00C7A018 /* HelloSinch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44852D371D912A2F00C7A018 /* Build configuration list for PBXNativeTarget "HelloSinch" */;
+			buildPhases = (
+				1F80893C84D19B0CF0492172 /* [CP] Check Pods Manifest.lock */,
+				44852D211D912A2E00C7A018 /* Sources */,
+				44852D221D912A2E00C7A018 /* Frameworks */,
+				44852D231D912A2E00C7A018 /* Resources */,
+				48A44FD0226F07C8306DDBF6 /* [CP] Embed Pods Frameworks */,
+				E65BA6A1322121E8CACC0EE9 /* [CP] Copy Pods Resources */,
+				44A3862B1D9183AF00B5B001 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSinch;
+			productName = HelloSinch;
+			productReference = 44852D251D912A2F00C7A018 /* HelloSinch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44852D1D1D912A2E00C7A018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "默司";
+				TargetAttributes = {
+					44852D241D912A2E00C7A018 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8E5H4JDK8B;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 44852D201D912A2E00C7A018 /* Build configuration list for PBXProject "HelloSinch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44852D1C1D912A2E00C7A018;
+			productRefGroup = 44852D261D912A2F00C7A018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44852D241D912A2E00C7A018 /* HelloSinch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44852D231D912A2E00C7A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44852D331D912A2F00C7A018 /* LaunchScreen.storyboard in Resources */,
+				44542D101D9137EB00F64140 /* Localizable.strings in Resources */,
+				44852D301D912A2F00C7A018 /* Assets.xcassets in Resources */,
+				44852D2E1D912A2F00C7A018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F80893C84D19B0CF0492172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44A3862B1D9183AF00B5B001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3afacff655185c711146838c691008c3f16a6f82 f59f09561e6ca4d9a5ca5b3b95b6d789cadd199564586990bd12ae898f7cdc7d";
+		};
+		48A44FD0226F07C8306DDBF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloSinch/Pods-HelloSinch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65BA6A1322121E8CACC0EE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloSinch/Pods-HelloSinch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44852D211D912A2E00C7A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44852D2B1D912A2F00C7A018 /* ViewController.swift in Sources */,
+				44852D291D912A2F00C7A018 /* AppDelegate.swift in Sources */,
+				44542D121D91385300F64140 /* SINClientManager.swift in Sources */,
+				44542D151D91404600F64140 /* CallTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44852D2C1D912A2F00C7A018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44852D2D1D912A2F00C7A018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44852D311D912A2F00C7A018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44852D321D912A2F00C7A018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44852D351D912A2F00C7A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44852D361D912A2F00C7A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44852D381D912A2F00C7A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42E11D77DC35600AAD9AABF /* Pods-HelloSinch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				INFOPLIST_FILE = HelloSinch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.playground.sinch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloSinch/HelloSinch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44852D391D912A2F00C7A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F929234DF548D2D126CE9B /* Pods-HelloSinch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				INFOPLIST_FILE = HelloSinch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.playground.sinch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloSinch/HelloSinch-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44852D201D912A2E00C7A018 /* Build configuration list for PBXProject "HelloSinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44852D351D912A2F00C7A018 /* Debug */,
+				44852D361D912A2F00C7A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44852D371D912A2F00C7A018 /* Build configuration list for PBXNativeTarget "HelloSinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44852D381D912A2F00C7A018 /* Debug */,
+				44852D391D912A2F00C7A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44852D1D1D912A2E00C7A018 /* Project object */;
+}
